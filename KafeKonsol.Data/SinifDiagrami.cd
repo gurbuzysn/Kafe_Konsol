@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KafeKonsol.Data.Urun">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAEAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Urun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KafeKonsol.Data.SiparisDetay">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAABAAAAAAAAAAAABACAAAAAAABAAAAAA=</HashCode>
+      <FileName>SiparisDetay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KafeKonsol.Data.Siparis">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAQAAAAAAAAAAAAAAACAEAAAACAAAAEAAIAAEAAAA=</HashCode>
+      <FileName>Siparis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KafeKonsol.Data.KafeVeri">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAABAAAAAAAAACAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>KafeVeri.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="KafeKonsol.Data.SiparisDurum">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>SiparisDurum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
