@@ -281,6 +281,7 @@
             Margin = new Padding(4);
             MinimumSize = new Size(866, 522);
             Name = "SiparisForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "SiparisForm";
             ((System.ComponentModel.ISupportInitialize)nudAdet).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvDetaylar).EndInit();

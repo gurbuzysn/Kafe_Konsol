@@ -49,7 +49,7 @@ namespace KafeKonsol
             Urun urun = (Urun)cboUrun.SelectedItem;
             if (urun == null) return;
 
-            var sd = _siparisDetaylar.FirstOrDefault(x => x.UrunAd == urun.UrunAd);
+            var sd = _siparisDetaylar.FirstOrDefault(x => x.UrunAd == urun.UrunAd);   // eskiden o ürün adıyla oluşturulmuş ürün varmı? yoksa yeni baştan oluştur dgv e ekle. varsa sadece adedini arttır.
 
             if (sd == null)
             {
@@ -64,7 +64,7 @@ namespace KafeKonsol
             }
             else
             {
-                sd.Adet += (int)nudAdet.Value;
+                sd.Adet += (int)nudAdet.Value;              // eski sipariş varsa sadece adedini arttır.
             }
             _siparisDetaylar.ResetBindings();
 

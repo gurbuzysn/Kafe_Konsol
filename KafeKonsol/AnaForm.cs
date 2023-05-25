@@ -20,7 +20,7 @@ namespace KafeKonsol
             OrnekUrunleriYukle();
             MasalariYukle();
 
-            
+
         }
 
         private void OrnekUrunleriYukle()
@@ -49,10 +49,10 @@ namespace KafeKonsol
 
             var siparis = db.AktifSiparisler.FirstOrDefault(x => x.MasaNo == masaNo);
 
-            if (siparis == null) 
+            if (siparis == null)
             {
                 lviTiklanan.ImageKey = "dolu";
-                siparis = new Siparis() {MasaNo = masaNo };
+                siparis = new Siparis() { MasaNo = masaNo };
                 db.AktifSiparisler.Add(siparis);
             }
 
@@ -65,6 +65,16 @@ namespace KafeKonsol
             }
 
 
+        }
+
+        private void tsmiUrunler_Click(object sender, EventArgs e)
+        {
+            new UrunlerForm(db).ShowDialog();
+        }
+
+        private void tsmiGecmisSiparisler_Click(object sender, EventArgs e)
+        {
+            new GecmisSiparislerForm(db).ShowDialog();
         }
     }
 }
